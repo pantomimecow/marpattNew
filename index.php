@@ -19,7 +19,26 @@
 <body>
 		<?php include('/includes/header.php');?>
 		<section>
-			<img src="img/porca.jpg" alt="">
+			<div class="cycle-slideshow" 
+				data-cycle-fx=scrollHorz
+				data-cycle-timeout=5000
+				>
+				<!-- empty element for overlay -->
+				<div class="cycle-overlay"></div>
+
+				<img src="img/slider/Corbiere.jpg" 
+					data-cycle-title="Classic Collection" 
+					data-cycle-desc="Corbiere">
+				<img src="img/slider/Horizon.jpg" 
+					data-cycle-title="Contemporary Collection" 
+					data-cycle-desc="Horizon">
+				<img src="img/slider/Natural_Oak.jpg" 
+					data-cycle-title="Edwardian Collection" 
+					data-cycle-desc="Regent Craft Natural Oak">
+				<img src="img/slider/Monarch_Light_Oak.jpg" 
+					data-cycle-title="Bespoke In-frame" 
+					data-cycle-desc="Monarch Light Oak">
+			</div>
 		</section>
 		<section>
 			<div class="textBox box1">
@@ -54,6 +73,9 @@
 	<?php include('/includes/nav.php');?>
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/jquery.mobile.custom.min.js"></script>
-	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<script src="js/main.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	 <!-- Resource jQuery -->
 </body>
 </html>

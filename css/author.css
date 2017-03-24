@@ -157,3 +157,9 @@ strong {
 	color: #ffffff;
 }
 
+.cycle-overlay { 
+	font-family: "freight-sans-pro",sans-serif;    
+	position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
