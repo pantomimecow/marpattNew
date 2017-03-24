@@ -90,7 +90,7 @@ strong {
 
 .logo {
 	display: block;
-	margin:15px auto;
+	margin:20px auto 15px auto;
 	max-width:90%;
 }
 
@@ -112,7 +112,11 @@ strong {
 
 .contactInfo a{
     display:inline-block;
-    padding:10px;
+	color:inherit;
+}
+
+.contactInfo a:hover {
+	color:#69aa6f;
 }
 
 .facebook, .phone {
@@ -133,9 +137,9 @@ strong {
 	padding-left:20px;
 }
 
-nav {
+/*nav {
 	display:none;
-}
+}*/
 
 .textBox {
 	padding:30px;
