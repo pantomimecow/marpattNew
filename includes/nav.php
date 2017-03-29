@@ -2,7 +2,7 @@
 
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-			<li class="standard"><a href="">Home</a></li>
+			<li class="standard"><a href="index.php">Home</a></li>
 			<li class="has-children">
 				<a href="http://codyhouse.co/?p=409">Doors</a>
 
@@ -91,11 +91,11 @@
 			</li>
 
 			<li class="standard">
-				<a href="http://codyhouse.co/?p=409">Door Furniture</a>
+				<a href="door-furniture.php">Door Furniture</a>
 			</li>
 			
 			<li class="standard">
-				<a href="http://codyhouse.co/?p=409">Accessories</a>
+				<a href="accessories.php">Accessories</a>
 			</li>
 			
 			<li class="standard">

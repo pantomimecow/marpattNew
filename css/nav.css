@@ -14,7 +14,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: sans-serif;
-  color: #2e3233;
+  color: #95989A;
   background-color: #ffffff;
 }
 @media only screen and (max-width: 1169px) {
@@ -94,7 +94,6 @@ Main components
 }
 
 .cd-main-header {
-  height: 30px;
   background: #ffffff;
   z-index: 3;
 }
@@ -107,7 +106,6 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-main-header {
-    height: 80px;
   }
   .cd-main-header::after {
     clear: both;
@@ -566,7 +564,7 @@ Main components
   }
   .cd-primary-nav > li {
     float: left;
-    margin-left: 3em;
+    margin-left: 2.5em;
   }
   .cd-primary-nav > li > a {
     /* main navigation buttons style */
@@ -660,9 +658,9 @@ Main components
   }
   .cd-primary-nav .cd-secondary-nav > li {
     /* change the height according to your needs - you can even set height: auto */
-    height: 340px;
+    height: auto;
     /* here you set the number of columns - use width percentage */
-    width: 23%;
+    width: 17%;
     float: left;
     margin-right: 2.66%;
     border-right: 1px solid #e2e3df;
