@@ -73,6 +73,9 @@ img {
     height: auto;
 }
 
+button {background-color:#ffffff!important; border:none!important; color:#999999!important}
+
+#cboxCurrent {display:none!important}
 
 /*------------------------------------*\
     $MAIN
@@ -286,6 +289,10 @@ footer {display:none}
 }
 
 .accessories div:last-child {margin-bottom:0px}
+
+#colorbox img{ max-width:300!important; height:auto!important }
+
+.gridText {padding:30px}
 
 @media only screen and (min-width: 600px)  {
 	

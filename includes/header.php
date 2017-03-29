@@ -6,7 +6,6 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link rel="stylesheet" href="css/author.css">
 	<link rel="stylesheet" href="css/nav.css">
-	<link rel="stylesheet" href="css/colorbox.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Cache-control" content="no-cache">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->

@@ -14,7 +14,7 @@
 					<h3>OTHER</h3>
 					<ul>
 						<li><a href="door-furniture.php">Door Furniture</a></li>
-						<li><a href="acessories.php">Accessories</a></li>
+						<li><a href="accessories.php">Accessories</a></li>
 					</ul>
 				</div>
 				<div>
@@ -39,15 +39,12 @@
 			</div>
 		</footer>
 	</div>
-	<?php include('/includes/nav.php');?>
+	<?php include('includes/nav.php');?>
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/jquery.mobile.custom.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
-
-	
-	 <!-- Resource jQuery -->
 </body>
 </html>
 

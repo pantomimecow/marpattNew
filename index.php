@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Marpatt - Kitchen Doors Suppliers to the trade</title>
-	<script src="https://use.typekit.net/gdq3jkz.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-	<link rel="stylesheet" href="css/author.css">
-	<link rel="stylesheet" href="css/nav.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="Cache-control" content="no-cache">
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-</head>
-
-<body>
-		<?php include('/includes/header.php');?>
+<?php include('includes/header.php');?>
 		<section>
 			<div class="cycle-slideshow phone-display" 
 				data-cycle-fx=scrollHorz
 				data-cycle-timeout=5000
 				>
-				<!-- empty element for overlay -->
+
 				<div class="cycle-overlay"></div>
 
 				<img src="img/slider/Corbiere.jpg" 
@@ -46,7 +27,7 @@
 				data-cycle-fx=scrollHorz
 				data-cycle-timeout=5000
 				>
-				<!-- empty element for overlay -->
+		
 				<div class="cycle-overlay"></div>
 
 				<img src="img/slider/corbiere_1000.jpg" 

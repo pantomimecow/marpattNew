@@ -1,5 +1,5 @@
 
-		<?php include('/includes/header.php');?>
+		<?php include('includes/header.php');?>
 		
 		<img src="img/accessories.jpg" alt="">
 		<section class="content">
