@@ -6,6 +6,9 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link rel="stylesheet" href="css/author.css">
 	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Cache-control" content="no-cache">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->

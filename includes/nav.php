@@ -99,7 +99,7 @@
 			</li>
 			
 			<li class="standard">
-				<a href="http://codyhouse.co/?p=409">News</a>
+				<a href="news.php">News</a>
 			</li>
 			
 			<li class="has-children">

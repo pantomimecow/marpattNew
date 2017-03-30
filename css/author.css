@@ -285,7 +285,7 @@ footer {display:none}
 
 .accessories div {
 	margin:0 auto;
-	margin-bottom:5px;
+	margin-bottom:2.5%;
 }
 
 .accessories div:last-child {margin-bottom:0px}
@@ -294,8 +294,25 @@ footer {display:none}
 
 .gridText {padding:30px}
 
+#img_tablet {display:none;}
+
+h3 {
+	font-size:1.5em;
+	line-height:1.5;
+	border-bottom: 1px solid #95989A;
+	color:#007B4D;
+}
+
+.news p {font-size:16px;}
+
+.news img {margin-bottom:15px; display: inline-block}
+
+
 @media only screen and (min-width: 600px)  {
 	
+	.news img {max-width: 75%}
+	.gridContent {padding-left:1%; padding-bottom:30px; overflow: auto;}
+	.gridContent div {width:44%; float:left; margin-left:2.5%; margin-right:2.5%; margin-bottom:5%}
 	
 	.logo {padding-top:0px}
 	
@@ -336,7 +353,12 @@ footer {display:none}
 	
 	footer {
 		display:block;
+		padding-top:15px;
+		border-top:thin solid #95989A;
+		margin:0 30px;
 	}
+	
+	.footer_container {padding:0!important}
 	
 	.footer_container {overflow: auto; padding:30px;}
 	.footer_container div {float:left; padding:0 15px 30px 15px;}
@@ -367,6 +389,7 @@ footer {display:none}
 
 	
 	footer {clear:left;}
+	footer h3 {border-bottom:none;}
 }
 
 @media only screen and (min-width: 1160px) {
@@ -400,5 +423,23 @@ footer {display:none}
 		margin-left:0;
 		width:100%;
 	}
+	
+	.news .gridText {width:75%;}
+	.gridText {float:left;}
+	.gridContent {float:right; width:625px; background: #5f676b; position:relative; margin-top:35px; margin-right:35px; padding:15px; height:476px; overflow: hidden;}
+	.gridContent p {color:#ffffff;}
+	.gridContent div {margin-left:0px; height:478px;}
+	#img1 {width:292px; height:292px; position:absolute; top:15px; left:15px;}
+	#img2 {width:292px; height:141px; position: absolute; top: 15px; left:320px}
+	#img3 {width:141px; height:141px; position:absolute; top:320px; left:15px;}
+	#img4 {width:141px; height:141px; position: absolute; top: 320px; left:168px}
+	#img5 {width:141px; height:141px; position:absolute; top:320px; left:320px;}
+	#img6 {width:141px; height:141px; position: absolute; top: 166px; left:472px}
+	#img7 {width:141px; height:141px; position:absolute; top:166px; left:320px;}
+	#img8 {width:292px; position: absolute; top: 15px; left:320px}
+	#enlarge {width:141px; height:141px; position:absolute; top:320px; left:472px;}
+	#img_tablet {display:block}
+	#img_phone {display:none}
+	
 }
 

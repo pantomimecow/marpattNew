@@ -20,7 +20,7 @@
 				<div>
 					<h3>MARPATT</h3>
 					<ul>
-						<li><a href="">News</a></li>
+						<li><a href="news.php">News</a></li>
 						<li><a href="">Client Central</a></li>
 						<li><a href="">Leicester Showroom</a></li>
 						<li><a href="">Product Training</a></li>
@@ -40,10 +40,7 @@
 		</footer>
 	</div>
 	<?php include('includes/nav.php');?>
-	<script src="js/jquery-2.1.1.js"></script>
-	<script src="js/jquery.mobile.custom.min.js"></script>
 	<script src="js/main.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 </body>
 </html>
