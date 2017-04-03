@@ -144,10 +144,10 @@
 			</li>
 
 			<li class="standard">
-				<a href="http://codyhouse.co/?p=409">About</a>
+				<a href="about.php">About</a>
 			</li>
 			<li class="standard">
-				<a href="http://codyhouse.co/?p=409">Contact</a>
+				<a href="contact-us.php">Contact</a>
 			</li>
 		</ul> <!-- primary-nav -->
 	</nav> <!-- cd-nav -->

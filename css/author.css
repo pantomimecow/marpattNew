@@ -281,6 +281,23 @@ footer {display:none}
 
 .content ul {margin-bottom:10px; list-style: circle outside none; margin-left:30px;}
 
+select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+		background-color:#979c9f;
+	width:100%;
+	height:50px;
+	margin-bottom:10px;
+	color:white
+}
+
 /*accessories*/
 
 .accessories div {
@@ -307,6 +324,48 @@ h3 {
 
 .news img {margin-bottom:15px; display: inline-block}
 
+/*form*/
+
+fieldset {border: solid 1px #666;
+    padding: 10px;
+    padding-top: 15px;
+	margin-bottom:15px;
+}
+
+legned {padding: 0px 5px;
+    font-weight: bold;}
+
+label {float:left; clear:left;}
+
+input {
+	    color: #ffffff;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    float: left;
+    clear: left;
+	background-color:#979c9f;
+	width:100%;
+	height:50px;
+	margin-bottom:10px;
+}
+
+textarea {color:#ffffff; background-color:#979c9f; width:100%; height:500px; font-family: "freight-sans-pro",sans-serif; font-size:1.6rem; padding:15px;
+ }
+
+input[type="checkbox"] {
+	    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 3px;
+    overflow: hidden;
+	margin-right:10px;
+}
+
+.check label {margin-bottom:5px; line-height:1.25;}
 
 @media only screen and (min-width: 600px)  {
 	
@@ -322,6 +381,15 @@ h3 {
 	
 	.contact_container {
 		overflow: auto;
+	}
+	
+	#recaptcha_response_field {
+		width:40%;
+	}
+	#bluesky {display:none;}
+	
+	input[type="submit"] {
+		width:20%;
 	}
 	
 	.contactInfo {
@@ -351,6 +419,7 @@ h3 {
   		clear: both;
 	}
 	
+	
 	footer {
 		display:block;
 		padding-top:15px;
@@ -367,7 +436,7 @@ h3 {
 	.footer_container li a {color:#2e3233}
 	.footer_container li a:hover {color:#333333}
 	.footer_container li {margin-bottom:5px;}
-	.content article {display:table; color:#000000!important}
+	.content.news article {display:table;}
 	.content article div {display:table-cell; width:50%; vertical-align: top;}
 	.blue-phone {display:none!important}
 	.blue-tablet {display:block!important}
@@ -423,8 +492,8 @@ h3 {
 		margin-left:0;
 		width:100%;
 	}
+
 	
-	.news .gridText {width:75%;}
 	.gridText {float:left;}
 	.gridContent {float:right; width:625px; background: #5f676b; position:relative; margin-top:35px; margin-right:35px; padding:15px; height:476px; overflow: hidden;}
 	.gridContent p {color:#ffffff;}
@@ -440,6 +509,30 @@ h3 {
 	#enlarge {width:141px; height:141px; position:absolute; top:320px; left:472px;}
 	#img_tablet {display:block}
 	#img_phone {display:none}
+	.content.news.about div {width:100%}
+	#about_text {
+		width:40%;
+		float:Left;
+	}
+	.news.about img {width: 50%; float: left; margin-left: 5%; margin-top: 3%;}
+	#values {clear:both;}
 	
+	.third {width: 29%;
+    float: left;
+    margin-right: 4%;}
+	
+	#bluesky {display:block;}
+	.clear {clear:both;}
+	
+	.content.news.about .col {    width: 32%;
+    margin-right: 2%;
+    display: block;
+    float: left;}
 }
+
+.content.news.about .col:last-child{margin-right:0;}
+
+.content fieldset { height:857px;}
+.content fieldset.check {height:auto}
+textarea {height:800px;}
 

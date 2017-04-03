@@ -32,7 +32,7 @@
 				<div>
 					<h3>CONTACT</h3>
 					<ul>
-						<li><a href="">Contact Us</a></li>
+						<li><a href="contact-us.php">Contact Us</a></li>
 						<li><a href="">Privacy and Cookies</a></li>
 					</ul>
 				</div>
