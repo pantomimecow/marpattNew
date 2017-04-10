@@ -594,7 +594,6 @@ Main components
     /* dropdown menu style */
     position: absolute;
     top: 80px;
-    width: 100vw;
     background: #ffffff;
     padding: 48px 64px 130px;
     box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);

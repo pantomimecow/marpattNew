@@ -215,6 +215,8 @@ footer {display:none}
 .img_19 img {width:33%;}
 
 
+.hidden {display:none;}
+.only_phone_tablet {display: block;}
 
 .furniture div {
 	padding-bottom:15px;
@@ -277,6 +279,7 @@ footer {display:none}
 		font-family: "freight-sans-pro",sans-serif;
 		margin-bottom: 5px;
 		font-style:italic;
+		line-height:1.25;
 }
 
 .content ul {margin-bottom:10px; list-style: circle outside none; margin-left:30px;}
@@ -318,6 +321,7 @@ h3 {
 	line-height:1.5;
 	border-bottom: 1px solid #95989A;
 	color:#007B4D;
+	margin-bottom:10px;
 }
 
 .news p {font-size:16px;}
@@ -367,8 +371,32 @@ input[type="checkbox"] {
 
 .check label {margin-bottom:5px; line-height:1.25;}
 
+.bluesky_showroom {display:none}
+.thirds {padding:30px;}
+
+.brochures {width:90%; margin: 0 auto; float:none;}
+.mac {width:50%; margin: 0 auto; float:none; margin-bottom:15px;}
+.third img {width: auto;}
+h4 {margin-bottom: 10px;}
+.downloads img {width:auto; margin-bottom:15px;}
+.pics .third {
+	width: 100%;
+    float: left;
+    margin-right: 0%;
+	padding-bottom:15px;
+}
+
+#cookies {padding:30px}
+
+table td, table th {padding:5px;}
+
+#range {display:none;}
+#enlarge {display:none;}
+
+
 @media only screen and (min-width: 600px)  {
-	
+	.brochures {float:left; width:50%;}
+	.mac {float:left; width:50%;}
 	.news img {max-width: 75%}
 	.gridContent {padding-left:1%; padding-bottom:30px; overflow: auto;}
 	.gridContent div {width:44%; float:left; margin-left:2.5%; margin-right:2.5%; margin-bottom:5%}
@@ -389,7 +417,9 @@ input[type="checkbox"] {
 	#bluesky {display:none;}
 	
 	input[type="submit"] {
-		width:20%;
+		width:auto;
+		padding-left:10px;
+		padding-right:10px;
 	}
 	
 	.contactInfo {
@@ -440,6 +470,8 @@ input[type="checkbox"] {
 	.content article div {display:table-cell; width:50%; vertical-align: top;}
 	.blue-phone {display:none!important}
 	.blue-tablet {display:block!important}
+	.hidden {display:block;}
+	.only_phone_tablet {display: none;}
 	
 /* furniture */
 	
@@ -457,11 +489,27 @@ input[type="checkbox"] {
 	
 
 	
-	footer {clear:left;}
+	footer {clear:both;}
 	footer h3 {border-bottom:none;}
 }
 
+
+
+#thirds {padding-left:30px; padding-right:30px;}
+
+.pics img {display:none;}
+
+
+.fourth {width: 41%;
+    float: left;
+    margin-right: 4%;}
+
+.clearLeft {clear:left;}
+
+#specialFinishes {width:auto; height:auto;}
+
 @media only screen and (min-width: 1160px) {
+	.container {max-width: 1450px; margin:0 auto;}
 	.facebook {margin-bottom:0px;}
 	
 	.logo {margin-left:53px;}
@@ -495,20 +543,30 @@ input[type="checkbox"] {
 
 	
 	.gridText {float:left;}
-	.gridContent {float:right; width:625px; background: #5f676b; position:relative; margin-top:35px; margin-right:35px; padding:15px; height:476px; overflow: hidden;}
+	.gridContent {float:right; width:625px; background: #5f676b; position:relative; margin-top:35px; margin-bottom:15px; margin-right:35px; padding:15px; height:476px; overflow: hidden;}
 	.gridContent p {color:#ffffff;}
 	.gridContent div {margin-left:0px; height:478px;}
 	#img1 {width:292px; height:292px; position:absolute; top:15px; left:15px;}
 	#img2 {width:292px; height:141px; position: absolute; top: 15px; left:320px}
+	#img2a {width:141px; height:141px; position: absolute; top: 15px; left:320px}
+	#img2_292 {width:292px; height:292px; position: absolute; top: 15px; left:320px}
 	#img3 {width:141px; height:141px; position:absolute; top:320px; left:15px;}
+	#img3_292 {width:292px; height:141px; position:absolute; top:320px; left:15px;}
+	#img3a {width:141px; height:141px; position:absolute; top:15px; left:473px;}
 	#img4 {width:141px; height:141px; position: absolute; top: 320px; left:168px}
+	#img4_292 {width:292px; height:141px; position: absolute; top: 320px; left:168px}
 	#img5 {width:141px; height:141px; position:absolute; top:320px; left:320px;}
+	#img5a {width:141px; height:141px; position:absolute; top:166px; left:320px;}
+	#img5_292 {width:292px; height:141px; position:absolute; top:166px; left:320px;}
 	#img6 {width:141px; height:141px; position: absolute; top: 166px; left:472px}
 	#img7 {width:141px; height:141px; position:absolute; top:166px; left:320px;}
-	#img8 {width:292px; position: absolute; top: 15px; left:320px}
+	#img8 {width:141px; position: absolute; top: 15px; left:473px}
 	#enlarge {width:141px; height:141px; position:absolute; top:320px; left:472px;}
 	#img_tablet {display:block}
 	#img_phone {display:none}
+	#two_square {width:292px; height:292px; position:absolute; left:320px; top:15px;}
+
+	#enlarge {display: block ;}
 	.content.news.about div {width:100%}
 	#about_text {
 		width:40%;
@@ -521,6 +579,8 @@ input[type="checkbox"] {
     float: left;
     margin-right: 4%;}
 	
+	
+	
 	#bluesky {display:block;}
 	.clear {clear:both;}
 	
@@ -528,11 +588,44 @@ input[type="checkbox"] {
     margin-right: 2%;
     display: block;
     float: left;}
-}
+
 
 .content.news.about .col:last-child{margin-right:0;}
 
 .content fieldset { height:857px;}
 .content fieldset.check {height:auto}
 textarea {height:800px;}
+	.bluesky_showroom {    
+		float: left;
+		display: block;
+		width: 45%;
+		margin-top: 35px;
+		margin-left: 25px;
 
+}
+	.brochures {float:left; width:30%; margin-top:15px;}
+	.mac {float:left; width:30%; margin-top:15px;}
+		
+	#thirds {display:block; clear:left; width:100%; padding-left:30px; padding-bottom:30px; overflow:auto;}
+	
+	.content div.download {
+		width:100%;
+	}
+	
+	.content div.donwload_third {width:30%; float:left; display:block; margin-right:2%}
+	
+	.download img.mac {width:20%; margin-right:2%;}
+	
+	.clear.login {clear:none; float:left; width:40%;}
+	
+	.content .clear.login fieldset {height:auto}
+	
+	.pics img {display:block; margin-bottom:50px;}
+	
+	.downloads {margin-right:2%;}
+	
+	.news.about .fourth img {float:none;}
+	.clearLeft {clear:none;}
+	.fourth {width:21%}
+	#range {display:block;}
+}
